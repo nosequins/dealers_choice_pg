@@ -1,5 +1,5 @@
 {
-  "name": "stata",
+  "name": "dealers_choice_pg",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nosequins/stata.git"
+    "url": "git+https://github.com/nosequins/dealers_choice_pg.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nosequins/stata/issues"
+    "url": "https://github.com/nosequins/dealers_choice_pg/issues"
   },
-  "homepage": "https://github.com/nosequins/stata#readme",
+  "homepage": "https://github.com/nosequins/dealers_choice_pg#readme",
   "dependencies": {
     "express": "^4.17.1",
     "pg": "^8.5.1"

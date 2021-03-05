@@ -45,6 +45,7 @@ app.get('/commands/:id', async(req, res)=>{
                 <title>${stataName[0].command}</title>
             </head>
             <body>
+                <button type="button" onclick="location.href='http://localhost:3000/commands/';">Back</button>
                 <h1>${stataName[0].command}</h1>
                 <div class= 'commands'>
                     ${stataName.map(command=>(
