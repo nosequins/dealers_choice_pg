@@ -1,5 +1,41 @@
+html {
+    background-color: rgb(188, 228, 241);
+    
+  }
+.listCommands{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+}
+.commands{
+    width:400px;
+    height:450px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}    
+.commanders{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    margin-bottom: 10px;
+}
+#logo{ 
+	position:fixed; 
+	top:0; 
+	left:0; 
+} 
+
 .box{
     width: 300px;
-    height: 200px;
+    height: 250px;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
